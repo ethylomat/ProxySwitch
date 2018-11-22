@@ -36,6 +36,7 @@ Starting httpd process on port 8000
 The example addon swap is swapping the words „Fire“ and „Water“ on 
 Wikipedia pages with host `*.wikipedia.org`.
 
+<img src="https://static.ethylomat.de/ProxySwitch/ProxySwitch2.png" align="left" width="250px" >
 
 ## PAC Server
 

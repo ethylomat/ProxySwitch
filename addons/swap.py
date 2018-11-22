@@ -9,7 +9,7 @@ class Swap:
     def response(self, flow):
         flow.response.content = swap(flow.response.content, "Fire", "Water")
 
-    def ProxyRule(port):
+    def ProxyRule(self, port):
         return ProxyRule.ProxyRule(host="*.wikipedia.org", port=port)
 
     def __str__(self):

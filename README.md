@@ -1,5 +1,5 @@
 # ProxySwitch
-> Mitmproxy for certain hosts
+> mitmproxy for certain hosts
 
 This tool redirects traffic (http/https) through 
 certain instances of mitmproxy allowing you to 
@@ -32,6 +32,10 @@ Starting proxy process on port 8081 with addon: Swap
 Starting httpd process on port 8000
 127.0.0.1 - - [22/Nov/2018 23:26:19] "GET /proxy.pac HTTP/1.1" 200 -
 ```
+
+The example addon swap is swapping the words „Fire“ and „Water“ on 
+Wikipedia pages with host `*.wikipedia.org`.
+
 
 ## PAC Server
 
